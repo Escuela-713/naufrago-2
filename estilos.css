@@ -1,0 +1,210 @@
+/* Reseteo */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Scroll */
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(3, 144, 226);
+    border-radius: 1000px;
+}
+
+.margen{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.margen1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 25px;
+}
+
+.navright{
+    text-align: right;
+}
+
+.logoesc
+
+
+.p1{
+    text-indent: 50px;
+}
+
+.h{
+    text-align: center;
+}
+
+.lista{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+}
+::marker{
+    justify-content: center;
+}
+
+.contenido-lista{
+    size: 30px;
+}
+
+h1 {
+    margin-left: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+body{
+    background-color: white;
+}
+
+/* Navbar */
+.palabra{
+    color: rgb(0, 0, 0);
+}
+
+.activo:hover {
+    color: rgb(3, 144, 226);
+}
+
+/* Botón */
+.boton{
+    margin-top: 500px;
+    width: 50px;
+    background-color: #0a1a2a;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.divbt{
+    text-align: center;
+    margin: 80px;
+}
+.boton1{
+    width: 200px;
+    background-color: #0a1a2a;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.divbt1{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+}
+.margintopbtn{
+    margin-top: 50px;
+}
+
+/* Footer */
+.pie-de-pagina {
+    margin: 0px;
+    width: 100%;
+    background-color: #0a141d;
+    margin-top: 20px;
+}
+
+.pie-de-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-de-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina .grupo-1 .box figure img {
+    width: 150px;
+}
+
+.pie-de-pagina .grupo-1 .box h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-de-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.pie-de-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-de-pagina .grupo-1 .red-social a:hover {
+    color: rgb(3, 144, 226);
+}
+
+.pie-de-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-de-pagina .grupo-2 small {
+    font-size: 12px;
+}
+
+/* Web Responsive Footer */
+@media screen and (max-width: 800px) {
+    .pie-de-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+.banner {
+    width: 92%;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.imgfooter{
+    margin-left: 30px;
+}
+p{
+    text-indent: 50px;
+}
+
+.prueba{
+    background-color: #0a141d;
+}
+.invisible{
+    text-decoration: none;
+}
+
+
